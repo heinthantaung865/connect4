@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.board {
+    background-color: tan;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+}
+.row {
+    margin: 7px;
+    padding: 2px;
+    display: flex;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 7px;
+    transition-duration: .5s;
+}
+#turn {
+    color: teal;
+}
+#winner {
+    color: blue;
+    font-stretch: 1.5em;
+    margin-top: 12px;
+}
